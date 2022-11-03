@@ -85,8 +85,8 @@ body {
     height: auto;
     margin: 70px auto 70px auto;
     border-radius: 30px;
-    padding-top: 50px;
-    
+    padding-top: 40px;
+    padding-bottom:20px;
 }
 .authorPhoto {
     background-image: url("../images/profile.jpg");
@@ -134,7 +134,7 @@ body {
     display: grid;
     grid-template-columns: 25px 150px;
     margin-left: 165px;
-    padding-bottom:70px;
+    padding-bottom:30px;
 }
 .authorLocation{
     font-family: 'PT Sans', sans-serif;
@@ -142,7 +142,15 @@ body {
     color: white;
     padding-left: 5px;
 }
-
+.authorGithub {
+    background-image: url("../images/github.png");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 45%;
+}
 .videoContainer {
     margin: 20px auto 20px auto;
     width: 500px;
