@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+html {
+    margin: auto;
+    
+}
+body {
+    background: linear-gradient(to bottom right, #363553,#903775, #E8458B);
+
+}
+.main {
+    min-width: 500px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+
+}
+.header {
+    display: grid;
+    grid-template-columns: 130px auto;
+    padding: 20px 0px 10px 0px;
+    border-bottom: 3px solid lightgray;
+    
+}
+.logo img {
+    height: 100px;
+    padding-left: 20px;
+}
+.headerMenu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+}
+.headerMenu a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 20px;
+    
+}
+.headerMenu a:hover{
+    color: white;
+    background-color: #5c4476;
+    
+}
+.headerMenu a:active{
+    background-color: #9a4d83;
+    
+}
+.headerMenu .selected{
+    background-color: #9a4d83;
+    border: 2px solid white;
+}
+.contentHome{
+    background: rgba(227, 194, 241, 0.3);
+    margin: 20px 0px 20px 0px;
+    border-radius: 50px;
+}
+.contentDiscipline{
+    width: 800px;
+    height: 1000px;
+    background: rgba(227, 194, 241, 0.3);
+    margin: 20px auto 20px auto;
+    border-radius: 50px;  
+}
+.contentTitle {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.contentAuthor{
+    background: rgba(227, 194, 241, 0.3);
+    width: 500px;
+    height: auto;
+    margin: 70px auto 70px auto;
+    border-radius: 30px;
+    padding-top: 50px;
+    
+}
+.authorPhoto {
+    background-image: url("../images/profile.jpg");
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 250px;
+    margin: 0px auto 0px auto;
+}
+.authorName {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2.3em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px 20px 0px
+}
+.authorTitle{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    
+}
+.clgLogo{
+    background-image: url("../images/CLG.png");
+    width: 70px;
+    height: 70px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px auto 0px auto;
+}
+.authorLocationLogo {
+    background-image: url("../images/location.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.authorLocationGrid{
+    display: grid;
+    grid-template-columns: 25px 150px;
+    margin-left: 165px;
+    padding-bottom:70px;
+}
+.authorLocation{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.9em;
+    color: white;
+    padding-left: 5px;
+}
+
+.videoContainer {
+    margin: 20px auto 20px auto;
+    width: 500px;
+    height: 300px;
+}
