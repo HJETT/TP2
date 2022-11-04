@@ -58,16 +58,65 @@ body {
     border: 2px solid white;
 }
 .contentHome{
+    width: auto;
+    height: 800px;
     background: rgba(227, 194, 241, 0.3);
-    margin: 20px 0px 20px 0px;
+    margin: 20px 100px 20px 100px;
     border-radius: 50px;
 }
+.homeTitle {
+    font-size: 2.7em;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px 40px 20px 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.homeDesc {
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-top: 3px solid #363553;
+    border-bottom: 3px solid #363553;
+    padding: 20px 40px 20px 40px;
+    text-align: justify;
+    color: white;
+   
+}
+.homeWrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.homeLogo {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.homeLogoDesc {
+    width: auto;
+    font-size: 1.5em;
+    color: white;
+    background-color: #5c447691;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 20px;
+    padding: 10px 15px 10px 15px;
+    align-self: center;
+}
 .contentDiscipline{
-    width: 800px;
-    height: 1000px;
+    width: auto;
+    height: auto;
     background: rgba(227, 194, 241, 0.3);
-    margin: 20px auto 20px auto;
+    margin: 20px 100px 20px 100px;
     border-radius: 50px;  
+    padding-bottom: 50px;
 }
 .contentTitle {
     margin-left: auto;
@@ -142,16 +191,19 @@ body {
     color: white;
     padding-left: 5px;
 }
-.authorGithub {
-    width: 50px;
-    height: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: 45%;
-}
 .videoContainer {
-    margin: 20px auto 20px auto;
-    width: 500px;
+    margin: 20px 150px 20px 150px;
+    width: auto;
     height: 300px;
+    padding-bottom: 50px;
+}
+.paragraph {
+    color:white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    width: auto;
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
 }
